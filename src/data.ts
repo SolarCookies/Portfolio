@@ -39,7 +39,7 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unreal,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/Stitch-Em/VivaEngine" },
+      { source: LinkImageSource.Steam, url: "https://store.steampowered.com/app/2178120/Return_To_Paradise/" },
     ],
     media: [
       { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
