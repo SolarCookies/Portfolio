@@ -30,11 +30,12 @@ body {
   font-family: 'Oxanium', 'Oxygen', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
   background-image: url('../assets/images/Background.jpg');
   background-repeat: repeat;
   background-size: 500px;
   color: #ffffff;
+  filter: blur(8px); /* Apply blur effect to the background */
 }
 
 a {
@@ -109,7 +110,7 @@ body::before {
     margin: 0;
     padding: 0;
     z-index: -1;
-    background: #4c0080;
+    background: #00000087;
     overflow: hidden;
 }
 
