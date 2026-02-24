@@ -65,17 +65,6 @@ const App: React.FC = () => {
       <AppContainer>
         <SelfSummary />
 
-        <Navbar>
-          <NavbarLink to="/">Games 👾</NavbarLink>
-          <NavbarLink to="/about-me">About me 👨🏻‍💻</NavbarLink>
-          <NavbarLink to="/contact">Contact 💬</NavbarLink>
-        </Navbar>
-
-        <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/about-me" element={<AboutMe />} />
-        </Routes>
       </AppContainer>
       <Footer />
     </Router>
