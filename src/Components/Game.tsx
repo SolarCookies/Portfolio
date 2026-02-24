@@ -11,7 +11,12 @@ interface GameProps {
 
 const GameContainer = styled(Row)`
   align-items: flex-start;
-  
+  gap: 100px;
+  padding: 20px;
+  background-color: #003a5587;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+
   & > * {
     flex: 1;
     max-width: 50%;
@@ -19,11 +24,11 @@ const GameContainer = styled(Row)`
 
   @media (max-width: 768px) {
     flex-direction: column;
-  & > * {
-    flex: 1;
-    max-width: 100%;
+    & > * {
+      flex: 1;
+      max-width: 100%;
+    }
   }
-    
 `;
 
 const Game: React.FC<GameProps> = ({ game }) => {
