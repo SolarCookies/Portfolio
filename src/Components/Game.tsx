@@ -25,6 +25,7 @@ const GameContainer = styled(Row)`
 
   @media (max-width: 768px) {
     flex-direction: column;
+    gap: 10px; /* Adjusted gap for vertical mobile */
   & > * {
     flex: 1;
     max-width: 100%;
