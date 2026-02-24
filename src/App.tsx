@@ -56,24 +56,30 @@ const App: React.FC = () => {
   });
 
   return (
-    <Router>
-      <AppContainer>
-        <SelfSummary />
+    <>
+      <ul className="background">
+        {Array.from({ length: 10 }).map((_, index) => (
+          <li key={index}></li>
+        ))}
+      </ul>
+      <Router>
+        <AppContainer>
+          <SelfSummary />
 
-        <Navbar>
-          <NavbarLink to="/">Games 👾</NavbarLink>
-          <NavbarLink to="/about-me">About me 👨🏻‍💻</NavbarLink>
-          <NavbarLink to="/contact">Contact 💬</NavbarLink>
-        </Navbar>
+          <Navbar>
+            <NavbarLink to="/">Games 👾</NavbarLink>
+            <NavbarLink to="/about-me">About me 👨🏻‍💻</NavbarLink>
+            <NavbarLink to="/contact">Contact 💬</NavbarLink>
+          </Navbar>
 
-        <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/about-me" element={<AboutMe />} />
-        </Routes>
-      </AppContainer>
-      <Footer />
-    </Router>
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/about-me" element={<AboutMe />} />
+          </Routes>
+        </AppContainer>
+      </Router>
+    </>
   );
 };
 
