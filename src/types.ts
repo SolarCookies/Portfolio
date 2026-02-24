@@ -14,7 +14,7 @@ export enum Platform {
 
 export enum GameEngine {
   Unity = "Unity",
-  Unreal = "Unreal",
+  Unreal = "Unreal Engine",
 }
 
 export enum MediaType {
@@ -45,6 +45,7 @@ export interface Game {
   name: string;
   description: string;
   genres: string[];
+  roles: string[];
   source?: { name: string; url: string };
   links: { source: LinkImageSource; url: string }[];
   media: MediaItem[];

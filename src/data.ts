@@ -19,6 +19,7 @@ export const games: Game[] = [
     name: "Nectar Not Included",
     description: "Take control of a butterfly’s final flight in this cozy arcade game where you need to collect nectar, avoid rival butterflies to survive and search for hidden power-ups as you fight against the time limit. It may seem trivial, but the smallest of things can have the largest consequences, how will your butterfly’s story end?",
     genres: ["Collectathon", "Arcade"],
+    roles: ["Everything but the music, animations, sound effects and the 1 nature asset pack we bought for the map"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unreal,
     links: [
@@ -36,6 +37,7 @@ export const games: Game[] = [
     name: "Return to Paradise",
     description: "A fan game set in the world of Viva Piñata!",
     genres: ["Creature Collector", "Simulation", "Fan Game"],
+    roles: ["Project Manager", "Lead Programmer", "Lead Tech Artist", "Partial Level Designer", "VFX Artist"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unreal,
     links: [
