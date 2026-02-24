@@ -9,6 +9,11 @@ interface GameInfoProps {
 }
 
 const GameInfoContainer = styled(Column)`
+  gap: 100px;
+  padding: 20px;
+  background-color: #003a5587;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
 `;
 
 const GameTitle = styled.h1`
