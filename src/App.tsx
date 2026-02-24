@@ -65,6 +65,9 @@ const App: React.FC = () => {
       <AppContainer>
         <SelfSummary />
 
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+        </Routes>
       </AppContainer>
       <Footer />
     </Router>
