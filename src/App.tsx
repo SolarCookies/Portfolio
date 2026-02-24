@@ -57,7 +57,11 @@ const App: React.FC = () => {
 
   return (
     <Router>
-      
+      <ul className="backgroundLP">
+          {Array.from({ length: 10 }).map((_, index) => (
+            <li key={index}></li>
+          ))}
+        </ul>
       <AppContainer>
         <SelfSummary />
 
