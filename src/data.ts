@@ -44,9 +44,9 @@ export const games: Game[] = [
     media: [
       { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/-N4ZMLJSBKQ", type: MediaType.YouTube },
-      { source: "/images/games/Nector/2.png", type: MediaType.Image },
-      { source: "/images/games/Nector/3.png", type: MediaType.Image },
-      { source: "/images/games/Nector/4.webp", type: MediaType.Image },
+      { source: "/images/games/rtp/2.png", type: MediaType.Image },
+      { source: "/images/games/rtp/3.png", type: MediaType.Image },
+      { source: "/images/games/rtp/4.webp", type: MediaType.Image },
     ],
   }
 ];
