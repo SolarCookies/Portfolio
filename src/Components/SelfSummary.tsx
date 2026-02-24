@@ -35,8 +35,7 @@ const Description = styled.p`
 `;
 
 const Logo = styled.img`
-  height: 90px;
-  margin-right: 2vw;
+  height: 200px;
 
   @media (max-width: 768px) {
     height: 50px;
