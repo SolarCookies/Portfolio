@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.2ae51873.css",
-    "main.js": "./static/js/main.7d3173d0.js",
+    "main.js": "./static/js/main.d97046bd.js",
     "static/media/Background.jpg": "./static/media/Background.666f415863357baa0969.jpg",
     "static/media/Oxanium.ttf": "./static/media/Oxanium.50bb18b058c797a89438.ttf",
     "static/media/PhoenixGaming.ttf": "./static/media/PhoenixGaming.52b75a56ef9f70c20259.ttf",
@@ -9,10 +9,10 @@
     "static/media/PixelGame.otf": "./static/media/PixelGame.a7040ee1df82fd46813b.otf",
     "index.html": "./index.html",
     "main.2ae51873.css.map": "./static/css/main.2ae51873.css.map",
-    "main.7d3173d0.js.map": "./static/js/main.7d3173d0.js.map"
+    "main.d97046bd.js.map": "./static/js/main.d97046bd.js.map"
   },
   "entrypoints": [
     "static/css/main.2ae51873.css",
-    "static/js/main.7d3173d0.js"
+    "static/js/main.d97046bd.js"
   ]
 }
