@@ -121,7 +121,7 @@ body::before {
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
-    animation: animate 19s linear infinite;
+    animation: animate 40s linear infinite;
 }
 
 .backgroundLP li:nth-child(0) {
