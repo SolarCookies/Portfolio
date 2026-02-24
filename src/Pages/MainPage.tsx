@@ -5,7 +5,7 @@ import { games } from "../data";
 import { Column } from "../Styles/StyledComponents";
 
 const GamesContainer = styled(Column)`
-  gap: 100px;
+  gap: 10px;
   padding: 20px;
 
   @media (max-width: 768px) {
