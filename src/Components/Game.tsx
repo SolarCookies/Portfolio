@@ -12,13 +12,12 @@ interface GameProps {
 const GameContainer = styled(Row)`
   align-items: flex-start;
   
-  
+  background-color: #003a5587;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
   & > * {
     flex: 1;
     max-width: 50%;
-    background-color: #003a5587;
-  border-radius: 20px;
-  backdrop-filter: blur(10px);
   }
 
   @media (max-width: 768px) {
