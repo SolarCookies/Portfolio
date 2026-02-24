@@ -31,5 +31,22 @@ export const games: Game[] = [
       { source: "/images/games/Nector/3.png", type: MediaType.Image },
       { source: "/images/games/Nector/4.png", type: MediaType.Image },
     ],
+  },
+  {
+    name: "Return to Paradise",
+    description: "A fan game set in the world of Viva Piñata!",
+    genres: ["Creature Collector", "Simulation", "Fan Game"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unreal,
+    links: [
+      { source: LinkImageSource.Github, url: "https://github.com/Stitch-Em/VivaEngine" },
+    ],
+    media: [
+      { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/-N4ZMLJSBKQ", type: MediaType.YouTube },
+      { source: "/images/games/Nector/2.png", type: MediaType.Image },
+      { source: "/images/games/Nector/3.png", type: MediaType.Image },
+      { source: "/images/games/Nector/4.webp", type: MediaType.Image },
+    ],
   }
 ];
