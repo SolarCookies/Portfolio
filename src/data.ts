@@ -3,7 +3,7 @@ import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } f
 export const PersonalInfo: AboutMeData = {
   name: "Sebastian Robinson",
   role: "Game Developer - Reverse Engineer",
-  introduction: "Hi! I'm a game developer/reverse engineer with 12 years of experience working on games in Unreal Engine. I specialize in making toon like graphics and desginging gameplay systems. About 2 years ago I started Learning IDA Pro and Hexadecimal to reverse engineer games. I have a passion for learning how games work and sharing that knowledge with others.",
+  introduction: "Hi! I'm a game developer/reverse engineer.. Insert more text here eventually..",
   description: "TELL_ABOUT_YOURSELF",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
