@@ -33,6 +33,7 @@ export const games: Game[] = [
       { source: "/images/games/Nector/4.png", type: MediaType.Image },
     ],
   },
+
   {
     name: "Return to Paradise",
     description: "A fan game set in the world of Viva Piñata!",
@@ -50,5 +51,195 @@ export const games: Game[] = [
       { source: "/images/games/rtp/3.png", type: MediaType.Image },
       { source: "/images/games/rtp/4.webp", type: MediaType.Image },
     ],
-  }
+  },
+
+  {
+    name: "Viva Pinata ModLoader",
+    description: "A modding tool for the original Viva Piñata game on PC. It consist of MinHook based funtion detours that map all the functions ive found useful for modding, as well as a Internal Mod Menu using ImGui.",
+    genres: ["Mod Loader", "Reverse Engineering"],
+    roles: ["Sole Developer"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unreal,
+    links: [
+      { source: LinkImageSource.Steam, url: "https://store.steampowered.com/app/2178120/Return_To_Paradise/" },
+    ],
+    media: [
+      { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/-N4ZMLJSBKQ", type: MediaType.YouTube },
+      { source: "/images/games/rtp/2.png", type: MediaType.Image },
+      { source: "/images/games/rtp/3.png", type: MediaType.Image },
+      { source: "/images/games/rtp/4.webp", type: MediaType.Image },
+    ],
+  },
+
+  {
+    name: "Solar Engine",
+    description: "A custom game engine ive been working on for fun and learning. Its a C++ engine using OpenGL, it features a custom ECS architecture, a custom scene editor, and basic graphics like shadows, geometry shaders, camera controls, and lighting.",
+    genres: ["Game Engine", "C++", "OpenGL"],
+    roles: ["Sole Developer"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unreal,
+    links: [
+      { source: LinkImageSource.Steam, url: "https://store.steampowered.com/app/2178120/Return_To_Paradise/" },
+    ],
+    media: [
+      { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/-N4ZMLJSBKQ", type: MediaType.YouTube },
+      { source: "/images/games/rtp/2.png", type: MediaType.Image },
+      { source: "/images/games/rtp/3.png", type: MediaType.Image },
+      { source: "/images/games/rtp/4.webp", type: MediaType.Image },
+    ],
+  },
+
+  {
+    name: "Geode Digging Game",
+    description: "A small game where you dig up geodes and sell them for profit. Its a small project I made to learn more about procedural generation, Though recently ive been testing out the idea of having geode pets that evolve baseed on the gems you feed them.",
+    genres: ["Procedural Generation", "Creature Collector", "Simulation"],
+    roles: ["Sole Developer"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unreal,
+    links: [
+      { source: LinkImageSource.Steam, url: "https://store.steampowered.com/app/2178120/Return_To_Paradise/" },
+    ],
+    media: [
+      { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/-N4ZMLJSBKQ", type: MediaType.YouTube },
+      { source: "/images/games/rtp/2.png", type: MediaType.Image },
+      { source: "/images/games/rtp/3.png", type: MediaType.Image },
+      { source: "/images/games/rtp/4.webp", type: MediaType.Image },
+    ],
+  },
+
+  {
+    name: "Yarn Game",
+    description: "A scrapped project due to scope creep, and differing visions. It was a game about collecting yarn creatures and the story revolved around Erikson's Stages of Development. I still have a lot of love for this project and I regret not working on it more, but I learned a lot from the time I spent on it and more importantly I know how to better manage scope and expectations on projects moving forward.",
+    genres: ["Procedural Generation", "Creature Collector", "Simulation"],
+    roles: ["Project Manager", "Lead Programmer", "Lead Tech Artist", "Gameplay Designer", "VFX Artist", "Level Designer"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unreal,
+    links: [
+      { source: LinkImageSource.Steam, url: "https://store.steampowered.com/app/2178120/Return_To_Paradise/" },
+    ],
+    media: [
+      { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/-N4ZMLJSBKQ", type: MediaType.YouTube },
+      { source: "/images/games/rtp/2.png", type: MediaType.Image },
+      { source: "/images/games/rtp/3.png", type: MediaType.Image },
+      { source: "/images/games/rtp/4.webp", type: MediaType.Image },
+    ],
+  },
+
+  {
+    name: "Alien Milkers",
+    description: "A project in development, though on hold due to being busy with other projects. Its a stealth game about milking cows in order to power your lactose intolerant UFO, You have to sneak around a procedurally generated farm without waking up the farmer or his wife. The game is meant to be tided to the same universe as nector not included as it is the aliens from the end of the game.",
+    genres: ["Procedural Generation (Farm Layout)", "Collectatron", "Stealth", "Comedic Horror"],
+    roles: ["Project Manager", "Lead Programmer", "Lead Tech Artist", "Gameplay Designer", "VFX Artist", "External Development Tools Engineer"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unreal,
+    links: [
+      { source: LinkImageSource.Steam, url: "https://store.steampowered.com/app/2178120/Return_To_Paradise/" },
+    ],
+    media: [
+      { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/-N4ZMLJSBKQ", type: MediaType.YouTube },
+      { source: "/images/games/rtp/2.png", type: MediaType.Image },
+      { source: "/images/games/rtp/3.png", type: MediaType.Image },
+      { source: "/images/games/rtp/4.webp", type: MediaType.Image },
+    ],
+  },
+
+  {
+    name: "Worms Armageddon X The Powder Toy Amalgamation",
+    description: "This is a smaller project of mine that I made when I was inspired by the gameplay of Worms Armageddon, But I wanted to be able to create my own worlds. So I made a 2D powder physics engine from scratch made with a modifyed Solar Engine capable of simulating and rendering 1 million particles at 60fps, Along with having a full map editor, p2p multiplayer, and pvp combat. I Dont actually plan on releasing this game, It was more of a fun learning experience for me, ecpecially the networking code made from scratch.",
+    genres: ["Sandbox", "PVP", "Strategy"],
+    roles: ["Sole Developer"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unreal,
+    links: [
+      { source: LinkImageSource.Steam, url: "https://store.steampowered.com/app/2178120/Return_To_Paradise/" },
+    ],
+    media: [
+      { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/-N4ZMLJSBKQ", type: MediaType.YouTube },
+      { source: "/images/games/rtp/2.png", type: MediaType.Image },
+      { source: "/images/games/rtp/3.png", type: MediaType.Image },
+      { source: "/images/games/rtp/4.webp", type: MediaType.Image },
+    ],
+  },
+
+  {
+    name: "Canvis",
+    description: "A 3D coloring book game where you can paint on any surface of the map. Not sure why I stopped working on this, I believe It might have been because of level design. I did get the mechanics working well and optimized enough to run on a Samsung S21 Ultra though.",
+    genres: ["Sandbox", "Art", "Relaxing"],
+    roles: ["Sole Developer"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unreal,
+    links: [
+      { source: LinkImageSource.Steam, url: "https://store.steampowered.com/app/2178120/Return_To_Paradise/" },
+    ],
+    media: [
+      { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/-N4ZMLJSBKQ", type: MediaType.YouTube },
+      { source: "/images/games/rtp/2.png", type: MediaType.Image },
+      { source: "/images/games/rtp/3.png", type: MediaType.Image },
+      { source: "/images/games/rtp/4.webp", type: MediaType.Image },
+    ],
+  },
+
+  {
+    name: "Monkey Heist",
+    description: "This one never really got off the ground outside of a prototype with the main character model and some basic mechanics, but the idea was a game where you play as a monkey that has to steal bananas from bananas banks.",
+    genres: ["Action", "Stealth", "Comedy"],
+    roles: ["Sole Developer"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unreal,
+    links: [
+      { source: LinkImageSource.Steam, url: "https://store.steampowered.com/app/2178120/Return_To_Paradise/" },
+    ],
+    media: [
+      { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/-N4ZMLJSBKQ", type: MediaType.YouTube },
+      { source: "/images/games/rtp/2.png", type: MediaType.Image },
+      { source: "/images/games/rtp/3.png", type: MediaType.Image },
+      { source: "/images/games/rtp/4.webp", type: MediaType.Image },
+    ],
+  },
+
+  {
+    name: "Project Animalcules",
+    description: "A game inspired by Viva Pinata and Spore where you have a pretty dish environment where you can add stuff to attract different microbial life and potentially evolve them into new species.",
+    genres: ["Simulation", "Creature Collector"],
+    roles: ["Sole Developer"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unreal,
+    links: [
+      { source: LinkImageSource.Steam, url: "https://store.steampowered.com/app/2178120/Return_To_Paradise/" },
+    ],
+    media: [
+      { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/-N4ZMLJSBKQ", type: MediaType.YouTube },
+      { source: "/images/games/rtp/2.png", type: MediaType.Image },
+      { source: "/images/games/rtp/3.png", type: MediaType.Image },
+      { source: "/images/games/rtp/4.webp", type: MediaType.Image },
+    ],
+  },
+
+  {
+    name: "Pirate Game",
+    description: "A game I was paid to work on for a client for a few months, I was the sole developer on the project but unfortunately my skills where not used to their full potential as I was stuck pieceing together asset packs left and right which took up most of my time due to me having to optimize them. One notable thing I did do on this project was making a tile based world system that used level streaming along with a few other tricks in order to get islands to load without a large lag spike. The generator also had the ablity to take pictures of all sides of the island so that from a distance everything looked loaded in. I also made the sailing mechanics and water phycics that interacted with the boat before they bought fluid flux..",
+    genres: ["Action", "Adventure", "Pirate"],
+    roles: ["Sole Developer"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unreal,
+    links: [
+      { source: LinkImageSource.Steam, url: "https://store.steampowered.com/app/2178120/Return_To_Paradise/" },
+    ],
+    media: [
+      { source: "/images/games/rtp/1.jpg", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/-N4ZMLJSBKQ", type: MediaType.YouTube },
+      { source: "/images/games/rtp/2.png", type: MediaType.Image },
+      { source: "/images/games/rtp/3.png", type: MediaType.Image },
+      { source: "/images/games/rtp/4.webp", type: MediaType.Image },
+    ],
+  },
 ];
