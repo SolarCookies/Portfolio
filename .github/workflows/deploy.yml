@@ -31,3 +31,5 @@ jobs:
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use the built-in GitHub token for authentication 
         # or a custom secret if required by your deploy script, e.g., ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
+        GIT_USER: ${{ secrets.GITHUB_ACTOR }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
